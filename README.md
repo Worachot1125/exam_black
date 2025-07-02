@@ -1,0 +1,9 @@
+env
+DB_HOST="localhost"
+DB_PORT="5432"
+DB_DATABASE="examDB"
+DB_USER="postgres"
+DB_PASSWORD="DOMdatabase1234"
+DB_DSN=""
+DB_SSLMODE="disable"
+JWT_SECRET_USER="MySecretKeyForUser"
