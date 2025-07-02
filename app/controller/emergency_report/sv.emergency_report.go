@@ -23,7 +23,7 @@ func (s *Service) Create(ctx context.Context, req request.CreateEmergencyReport)
 		Emergency_Type_ID: emTypeID,    // ⇦ string
 		Description:       req.Description,
 		Image_URL:         req.Image_URL,
-		Status:            "Pending", // ค่าเริ่มต้น
+		Status:            "pending", // ค่าเริ่มต้น
 	}
 
 	_, err := s.db.NewInsert().Model(m).Exec(ctx)
